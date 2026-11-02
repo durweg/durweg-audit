@@ -2,7 +2,7 @@
 
 # durweg-audit
 
-**An optional plugin for [Durweg](https://github.com/musetee/durweg) that checks a run against the agent's own session files: did every recorded step really happen as a visible `durweg` call, and did you really say the words recorded at each confirmation?**
+**An optional plugin for [Durweg](https://github.com/durweg/durweg) that checks a run against the agent's own session files: did every recorded step really happen as a visible `durweg` call, and did you really say the words recorded at each confirmation?**
 
 `durweg check` checks a run's own record. durweg-audit goes one step further and compares that
 record with what the agent (Claude Code or Codex) actually did in its session. Use it when a run
@@ -14,9 +14,9 @@ You need Durweg installed, and git.
 
 1. **Open a terminal** (as in step 1 of Durweg's "Every day").
 2. **Get it:**
-   - macOS, Linux, WSL: `git clone https://github.com/musetee/durweg-audit.git ~/projects/durweg-audit`
+   - macOS, Linux, WSL: `git clone https://github.com/durweg/durweg-audit.git ~/projects/durweg-audit`
    - Windows (Durweg installed on Windows itself), in PowerShell:
-     `git clone https://github.com/musetee/durweg-audit.git "$HOME\projects\durweg-audit"`
+     `git clone https://github.com/durweg/durweg-audit.git "$HOME\projects\durweg-audit"`
 
 `~` and `$HOME` mean your home folder (on Windows `C:\Users\<you>`).
 

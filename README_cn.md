@@ -2,7 +2,7 @@
 
 # durweg-audit
 
-**[Durweg](https://github.com/musetee/durweg) 的可选插件：拿一次运行去和 agent 自己的会话记录对照，看记录里的每一步是不是真的通过 `durweg` 命令做的，每次确认时记下的话是不是真的是你说的。**
+**[Durweg](https://github.com/durweg/durweg) 的可选插件：拿一次运行去和 agent 自己的会话记录对照，看记录里的每一步是不是真的通过 `durweg` 命令做的，每次确认时记下的话是不是真的是你说的。**
 
 `durweg check` 检查的是运行自己的记录；durweg-audit 再往前一步，把这份记录和 agent（Claude Code 或 Codex）在会话里实际做的事对照。一次运行很重要、你想确定 agent 没有跳步、造假或改记录时用它。
 
@@ -12,9 +12,9 @@
 
 1. **打开终端**（和 Durweg 的“每天怎么用”第 1 步一样）。
 2. **下载：**
-   - macOS、Linux、WSL：`git clone https://github.com/musetee/durweg-audit.git ~/projects/durweg-audit`
+   - macOS、Linux、WSL：`git clone https://github.com/durweg/durweg-audit.git ~/projects/durweg-audit`
    - Windows（Durweg 装在 Windows 本机上），在 PowerShell 里：
-     `git clone https://github.com/musetee/durweg-audit.git "$HOME\projects\durweg-audit"`
+     `git clone https://github.com/durweg/durweg-audit.git "$HOME\projects\durweg-audit"`
 
 `~` 和 `$HOME` 都是你的家目录（Windows 上是 `C:\Users\<你>`）。
 
